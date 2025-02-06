@@ -9,7 +9,7 @@ This Repo Contains a variety of use cases that I have encountered in my years of
 <td width="50%">
 <h3 align="center">Nicko's Tech Shop</h3>
 <div align="center">
-<a href="https://github.com/ArisGuimera/Android-Expert" target="_blank"><img src="https://github.com/NicolasLopera/Media/blob/9b9745b9efa14181b4ac0f6347e6a1f921379c5a/Use_Case/Credit_Card_Main.jpg" width="400" alt="MLG Bank Credit Card"></a>
+<a href="https://github.com/NicolasLopera/Business-Intelligence/tree/7f6b5fa354422cdfb3b8891a818933cd0c0ed9ef/Use_Case/Nicko's%20Tech%20Shop" target="_blank"><img src="https://github.com/NicolasLopera/Media/blob/9b9745b9efa14181b4ac0f6347e6a1f921379c5a/Use_Case/Credit_Card_Main.jpg" width="400" alt="MLG Bank Credit Card"></a>
 <p>
 <a href="https://github.com/ArisGuimera/Android-Expert" target="_blank">
 <img src="https://img.shields.io/badge/CÓDIGO-ff9?style=for-the-badge&logo=github&logoColor=black">
