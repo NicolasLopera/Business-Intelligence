@@ -21,7 +21,8 @@ The Files emailed by the MLG Bank daily will be downloaded to a OneDrive folder 
 
 ### Data Flow in Power Automate
 1. Email Flow
+   
 
-2. Data Ingestion Flow
+3. Data Ingestion Flow
 
 ### Power BI
