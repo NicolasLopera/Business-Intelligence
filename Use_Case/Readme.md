@@ -1,38 +1,28 @@
-# BI Use Cases
-This Repo Contains a variety of use cases that I have encountered in my years of experience in the BI field. The solutions for each case involve tools such as Power BI, Power Automate, Strategy (aka MicroStrategy), Snowflake, and Tableau. 
+# Nicko's Tech Shop
+![image](https://github.com/NicolasLopera/Media/blob/2d4664c4e034757f50c0d6a2bec9678e23d44a5d/Use_Case/Credit_Card_banner.jpg)
 
->[!NOTE]
->The cases have been modified to use dummy data and the companies or people have been created for each exercise.
+## Use Case Description
+Nicko's Tech Shop is a local shop selling electronics with 4 branches open in the town. As part of the Marketing strategy to drive more customers to the store, Nicko's Tech Shop made a partnership with MLG Bank to sponsor a Credit Card.
+The associates from each branch will offer the Credit Card to their customers while they are assisting them with service, when a customer accepts to apply the assistant will open an MLG Bank form on their working tablets and guide the customer through the process, The shop has defined a target of applications by month, and if the goal is reached the associate will be eligible of a 10% bonus over the salary. 
 
-<table>
-<tr>
-<td width="50%">
-<h3 align="center">Nicko's Tech Shop</h3>
-<div align="center">
-<a href="https://github.com/NicolasLopera/Business-Intelligence/tree/7f6b5fa354422cdfb3b8891a818933cd0c0ed9ef/Use_Case/Nicko's%20Tech%20Shop" target="_blank"><img 
-   src="https://github.com/NicolasLopera/Media/blob/a17d682df55b72ee787178d7d1c1b6189d10703e/Use_Case/Nickos%20Teck%20Shop%20Cover.png" width="400" alt="MLG Bank Credit Card"></a>
-<p>
-<img src="https://img.shields.io/badge/Power_BI-blue">
-<img src="https://img.shields.io/badge/Power_Automate-blue">
-<img src="https://img.shields.io/badge/Python-blue">
-<img src="https://img.shields.io/badge/OneDrive-blue">
-<img src="https://img.shields.io/badge/Google_BigQuery-blue">
-</p>
-<p> Real-world enterprise challenges and analytics scenarios from my professional experience, contextualized through a fictional company, Nickos Tech Shop. </p>
-</div>                                                                                   
-</td>
+To track the applications submitted by the associates, The data and BI department got the requirement from Marketing to create a report to follow up on: 
+  * Total customer applications and total approved applications compared with Plan numbers.
+  * Weakly trend of applications. 
+  * Store with more applications monthly.
+  * The associates that are eligible to get the bonus each month. 
 
-<td width="50%">
-<br>
-<h3 align="center">Marketing Campaigns</h3>
-<div align="center">                                       
-<a href="https://github.com/ArisGuimera/SimpleAndroidMVVM" target="_blank"><img 
-   src="https://github.com/NicolasLopera/Media/blob/aa8282beaaea961cd2c6c7f2b85b68310981f053/Use_Case/Marketing%20Campaings%20Cover.png" width="300"></a>
-<br>
-<img src="https://img.shields.io/badge/Microstrategy-blue">
-<img src="https://img.shields.io/badge/Snowflake-blue">
-</p>
-<p> Designed and implemented operational reports in MicroStrategy to monitor and analyze retail marketing campaign performance, driving strategic decision-making. </p>  
-</div>                                                                                   
-</td>                                                            
-</table>                                                                                                                                                    
+Due to budget restrictions and resource limitations on the data engineering team, data integration between MLG Bank and Nicko's Tech Shop is not possible. Therefore, Nicko's Tech Shop has requested that MLG Bank email a daily CSV file to a generic account used for the Analytical department. 
+
+## Solution Design
+The Senior Data Analyst assigned to give a solution has come up with the following plan: 
+
+
+The Files emailed by the MLG Bank daily will be downloaded to a OneDrive folder by an automated process using Power Automate as soon as the email arrives. Then, another flow will append the data to a table in a SQL Server. 
+
+### Data Flow in Power Automate
+1. Email Flow
+   
+
+3. Data Ingestion Flow
+
+### Power BI
